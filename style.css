@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* General */
+html, body {
+  height:100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  color: white;
+}
+
+.image-caption-black {
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+  color: #343a40;
+}
+
+.color {
+  color: #343a40;
+}
+
+.caption-size {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.padding {
+  padding: 4rem 3rem 4rem 3rem;
+}
+
+.padding-bottom {
+  padding-bottom: 4rem; 
+}
+
+.padding-top {
+  padding-top: 4rem;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: 0% auto;
+}
+
+/* Nav Bar */
+.navbar-nav li {
+  padding-left: 20px;
+  margin-left: .65rem;
+  margin-right: .65rem;
+}
+
+.nav-link {
+  font-size: 1.2em !important;
+}
+
+.nav-link::after {
+  content:"";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+/* Home */
+/* Image Overlays */
+.hero-img {
+  background-image: url("img/bg-img.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Welcome */
+.welcome {
+  width: 75%;
+}
+  
+.welcome-hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+/* Jumbotron */
+.jumbotron-img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+/* Parallax */
+.parallax-mgmt {
+  /* The image used */
+  background-image: url("img/mgmt.jpeg");
+
+  /* Set a specific height */
+  height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+
+.parallax-acc {
+  /* The image used */
+  background-image: url("img/acc.jpg");
+
+  /* Set a specific height */
+  height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+
+.parallax-pharm {
+  /* The image used */
+  background-image: url("img/pharm.jpeg");
+
+  /* Set a specific height */
+  height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+
+.parallax-gd {
+  /* The image used */
+  background-image: url("img/gd.jpg");
+
+  /* Set a specific height */
+  height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: table;
+  width: 100%;
+}
+
+.btn-parallax {
+  background-color: #343a40;
+  color: white;
+  border-radius: 1rem;
+}
+
+.btn-parallax:hover {
+  background-color: #688099;
+}
+
+.parallax-text {
+  font-size: 600%;
+  color: white;
+  text-shadow: 0px 0px 4px #343a40;
+}
+
+.parallax-position {
+  text-align: center;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Columns */
+.two-columns {
+  padding: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color:#d5d5d5;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-width {
+  max-width: 1000px;
+  margin: 0% auto;
+}
+
+.footer-padding {
+  padding-top: 1rem;
+}
+
+footer a {
+  color:#d5d5d5;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Contact */
+.contact-title {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.form-control {
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+input[type="text"]
+{
+    font-size:18px;
+}
+
+textarea[name="txtMsg"]
+{
+  font-size: 18px;
+}
+
+.textarea-size {
+  height: 300px !important;
+}
+
+.contact-img {
+  background-image: url("img/contact.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-padding {
+  padding-top: 1rem;
+}
+
+.email-padding {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+/* About */
+.about-img {
+  background-image: url("img/about.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Management */
+.mgmt-img {
+  background-image: url("img/mgmt.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Accounting */
+.acc-img {
+  background-image: url("img/acc.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Pharmacy */
+.pharm-img {
+  background-image: url("img/pharm.jpeg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Graphic Design */
+.gd-img {
+  background-image: url("img/gd.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Media */
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .hero-img {
+    height: 400px;
+  }
+
+  .caption-size {
+    font-size: 1.5rem;
+  }
+  
+  .max-width {
+    width: 100%;
+  }
+
+  .display-4 {
+    font-size: 2rem; 
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+  }
+
+  .parallax-mgmt {
+    height: 500px;
+  }
+
+  .parallax-acc {
+    height: 500px;
+  }
+
+  .parallax-pharm {
+    height: 500px;
+  }
+
+  .parallax-gd {
+    height: 500px;
+  }
+
+  .parallax-text {
+    font-size: 3rem;
+  }
+
+  .footer-padding {
+    padding-left: 100px;   
+    font-size: 1.2rem;
+  }
+
+  .media-padding {
+    padding-top: 4rem;
+  }
+}
