@@ -362,6 +362,14 @@ textarea[name="txtMsg"]
 }
 
 @media (max-width: 576px) {
+  .parallax-position {
+    text-align: center;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 100px;
+  }
+
   .video { 
     width: 300px;
   }
