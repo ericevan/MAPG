@@ -6,3 +6,5 @@ In addition, we also offer experiences and knowledge regarding to those fields.
 1. Open index.html with a browser to access the website. 
 
 	- Style sheet is storaged in style.css. 
+
+Or go to ericevan.github.io/mapg 
