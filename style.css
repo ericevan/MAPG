@@ -8,6 +8,16 @@ html, body {
   color: #222;
 }
 
+.black-outline {
+  text-shadow: #343a40 0px 0px 1px,   #343a40 0px 0px 1px,   #343a40 0px 0px 1px,
+  #343a40 0px 0px 1px,   #343a40 0px 0px 1px,   #343a40 0px 0px 1px;
+}
+
+.white-outline {
+  text-shadow: #FFF 0px 0px 1px,   #FFF 0px 0px 1px,   #FFF 0px 0px 1px,
+             #FFF 0px 0px 1px,   #FFF 0px 0px 1px,   #FFF 0px 0px 1px;
+}
+
 .image-caption {
   position: absolute;
   bottom: 10px;
@@ -107,7 +117,7 @@ html, body {
   border-radius: 50%;
 }
 
-/* Parallax */
+/* parallax-textlax */
 .parallax-mgmt {
   /* The image used */
   background-image: url("img/mgmt.jpeg");
@@ -282,6 +292,13 @@ textarea[name="txtMsg"]
   position: relative;
 }
 
+.video {
+  width: 850px;
+  height: auto;
+  margin: 0 auto;
+  border: 10px double #343a40;
+}
+
 /* Management */
 .mgmt-img {
   background-image: url("img/mgmt.jpeg");
@@ -333,15 +350,47 @@ textarea[name="txtMsg"]
 }
 
 @media (max-width: 992px) {
-  
+  .video { 
+    width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
-
+  .video { 
+    width: 450px;
+  }
 }
 
 @media (max-width: 576px) {
+  .video { 
+    width: 300px;
+  }
+  
   .hero-img {
+    height: 400px;
+  }
+
+  .mgmt-img {
+    height: 400px;
+  }
+
+  .acc-img {
+    height: 400px;
+  }
+
+  .gd-img {
+    height: 400px;
+  }
+
+  .pharm-img {
+    height: 400px;
+  }
+
+  .contact-img {
+    height: 400px;
+  }
+
+  .about-img {
     height: 400px;
   }
 
