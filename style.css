@@ -8,6 +8,11 @@ html, body {
   color: #222;
 }
 
+.img-border {
+  border: 2px solid #343a40;
+  padding: 8px;
+}
+
 .black-outline {
   text-shadow: #343a40 0px 0px 1px,   #343a40 0px 0px 1px,   #343a40 0px 0px 1px,
   #343a40 0px 0px 1px,   #343a40 0px 0px 1px,   #343a40 0px 0px 1px;
@@ -297,6 +302,7 @@ textarea[name="txtMsg"]
   height: auto;
   margin: 0 auto;
   border: 10px double #343a40;
+  padding: 2px;
 }
 
 /* Management */
@@ -358,6 +364,15 @@ textarea[name="txtMsg"]
 @media (max-width: 768px) {
   .video { 
     width: 450px;
+  }
+
+  .media-padding {
+    padding-top: 4rem;
+  }
+
+  .footer-padding {
+    padding-left: 200px;   
+    font-size: 1.2rem;
   }
 }
 
