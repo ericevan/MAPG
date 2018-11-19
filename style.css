@@ -200,7 +200,11 @@ html, body {
 .parallax-text {
   font-size: 600%;
   color: white;
-  text-shadow: 0px 0px 4px #343a40;
+}
+
+.parallax-text-black {
+  font-size: 600%;
+  color: #343a40;
 }
 
 .parallax-position {
@@ -303,7 +307,6 @@ textarea[name="txtMsg"]
 
 .video {
   width: 850px;
-  height: auto;
   margin: 0 auto;
   border: 10px double #343a40;
   padding: 2px;
