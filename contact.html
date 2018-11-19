@@ -8,7 +8,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="main.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -59,25 +61,27 @@
     <div class="row text-center">
         <div class="col-12 contact-title">
             <h1 class="display-4 color">Send Us a Message</h1>
-        </div>    
+        </div> 
         <div class="col-md-12">
             <div class="form-group">
-                <input type="text" name="txtName" class="form-control" placeholder="Full Name *" value="" />
+                <input type="text" name="txtName" class="form-control name" placeholder="Full Name *" value="" />
             </div>
             <div class="form-group">
-                <input type="text" name="txtEmail" class="form-control" placeholder="Email *" value="" />
+                <input type="text" name="txtEmail" class="form-control email" placeholder="Email *" value="" />
             </div>
             <div class="form-group">
-                <input type="text" name="txtPhone" class="form-control" placeholder="Phone Number *" value="" />
+                <input type="text" name="txtPhone" class="form-control number" placeholder="Phone Number *" value="" />
             </div>
             <div class="form-group">
-                <input type="text" name="txtPhone" class="form-control" placeholder="Subject *" value="" />
+                <input type="text" name="txtPhone" class="form-control subject" placeholder="Subject *" value="" />
             </div>
             <div class="form-group">
-                <textarea name="txtMsg" class="form-control textarea-size" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                <textarea name="txtMsg" class="form-control textarea-size message" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
             </div>
-            <div class="form-group padding-bottom">
-                <a href=""><button type="button" class="btn btn-parallax btn-lg">Submit</button></a>
+            <div class="status red">  
+            </div>
+            <div class="form-group padding-bottom footer-padding">
+                <a href=""><button type="button" class="btn btn-parallax btn-lg submit">Submit</button></a>
             </div>
             <hr class="welcome-hr">
             <div>

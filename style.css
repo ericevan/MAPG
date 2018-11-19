@@ -8,6 +8,10 @@ html, body {
   color: #222;
 }
 
+.red {
+  color:red;
+}
+
 .img-border {
   border: 2px solid #343a40;
   padding: 8px;
@@ -462,3 +466,14 @@ textarea[name="txtMsg"]
     padding-top: 4rem;
   }
 }
+
+/* Thank you page */
+.thanks-img {
+  background-color: #343a40;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
